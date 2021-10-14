@@ -1,0 +1,144 @@
+h1
+{
+	background-color: black;
+	color: white;
+	font-family: "comis-sans",cursive,serif;
+	text-align:center;
+	height: 80px;
+	padding-top: 20px;
+	border-radius: 20px;
+
+}
+
+/*code for draggable*/
+
+.box
+{
+	border:1px solid red;
+	height: 400px;
+	width: 900px;
+}
+#box1, #box2, #box3, #box4
+{
+	display: inline-block;
+	border:1px solid black;
+	height: 100px;
+	width: 100px;
+	margin: 10px;
+	text-align: center;
+}
+
+#box1
+{
+	background-color: pink;
+	z-index: 2;
+}
+#box2
+{
+	background-color: lightblue;
+	z-index: 3;
+}
+#box3
+{
+	background-color: green;
+	z-index: 4;
+}
+#box4
+{
+	background-color: yellow;
+	z-index: 5;
+}
+
+
+/*code for DROPPABLE*/
+
+.boxI
+{
+	height:100px;
+	width: 100px;
+	position: relative;
+	left: 40%;
+	background-color: black;
+	color: white;
+	font-size: 25px;
+	padding: 100px;
+	z-index: 1;
+}
+
+
+
+
+/*code for sortable*/
+
+.placeHolder
+{
+	border: 1px dashed red;
+	background-color: linen;
+}
+
+.sort
+{
+	height: auto;
+	border:1px solid red;
+	margin-top: 10px;
+	position: relative;
+	top: 40px;
+}
+
+li:hover
+{
+	transition: .3s;
+	background-color: black;
+	color: white;
+	transform: rotate(2deg);
+
+	
+}
+
+li
+{
+	border: 1px solid black;
+	background-color: silver;
+	box-shadow: 0 0 5px;
+	margin-top: 4px;
+	text-align:center;
+	cursor: pointer;
+}
+
+#sortable
+{
+	float: left;
+	width: 150px;
+
+}
+
+#sortableToo
+{
+	float: right;
+	width: 200px;
+}
+
+
+/*code for accrodion*/
+
+#accordion
+{
+	text-align:center;
+}
+
+
+/*code for dates*/
+
+.dates
+{
+	font-size: 20px;
+	text-align: center;
+
+}
+
+input:hover
+{
+	box-shadow: 0 0 10px black;
+	border:none;
+	border-radius: 5px;
+}
